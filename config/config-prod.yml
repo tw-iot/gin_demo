@@ -1,0 +1,19 @@
+listen_port: "8080"
+
+log_path: "logs"
+
+redis_password: ""
+redis_is_cluster: true
+redis_cluster_nodes:
+  - 192.168.1.51:7000
+  - 192.168.1.51:7001
+  - 192.168.1.52:7002
+  - 192.168.1.52:7003
+  - 192.168.1.53:7004
+  - 192.168.1.53:7005
+
+mysql_user: "root"
+mysql_pwd: "root"
+mysql_host: "192.168.146.18"
+mysql_port: 3306
+mysql_db: "iot-data"

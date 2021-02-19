@@ -1,0 +1,13 @@
+listen_port: "8080"
+
+log_path: ""
+
+redis_password: "talkweb@2020"
+redis_is_cluster: false
+redis_addr: "192.168.146.18:6379"
+
+mysql_user: "root"
+mysql_pwd: "root"
+mysql_host: "192.168.146.18"
+mysql_port: 3306
+mysql_db: "iot-data"
