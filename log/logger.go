@@ -56,6 +56,7 @@ func rootLogInit(logFilePath string) {
 	Log = logrus.New()
 	//设置输出
 	Log.Out = src
+	Log.Out = os.Stdout
 	//设置日志级别
 	Log.SetLevel(logrus.DebugLevel)
 
@@ -112,6 +113,7 @@ func accessLogInit(logFilePath string) {
 	LogAccess = logrus.New()
 	//设置输出
 	LogAccess.Out = srcAccess
+	LogAccess.Out = os.Stdout
 	//设置日志级别
 	LogAccess.SetLevel(logrus.DebugLevel)
 
